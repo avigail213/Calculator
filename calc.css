@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 244, 30);
+
+}
+.calculator{
+    border-radius: 10px;
+    padding: .5rem;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    box-shadow: 5pb 5px 8px 2px rgba(27, 27, 27, 0);
+
+}
+
+.calculator p{
+    color: white;
+    font-size: xx-large;
+    height: 37px;
+}
+
+.calculator .btn-c{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100% - 37px);
+}
+
+.calculator .btn-c button{
+    width: 25%;
+}
+
+.calculator .btn-c button#eq{
+    width: 50%;
+}
